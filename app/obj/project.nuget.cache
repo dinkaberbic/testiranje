@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "RuF6aZVxFqCaVM7fsjptkp+RwqmTvYmnHZGdZDWJiTRmXK/7ToD4o08ijDG+qcb4C2OZptijuxsAFGB9bdCw6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dinka\\Downloads\\s2i-dotnetcore-ex-dotnetcore-3.1\\s2i-dotnetcore-ex-dotnetcore-3.1\\app\\app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dinka\\.nuget\\packages\\instana.managedtracing.sdk\\1.0.14\\instana.managedtracing.sdk.1.0.14.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Instana.ManagedTracing.Sdk 1.0.14' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Instana.ManagedTracing.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

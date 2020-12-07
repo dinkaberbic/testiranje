@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Instana.ManagedTracing.Sdk/1.0.14": {
+        "type": "package",
+        "compile": {
+          "ref/net45/Instana.ManagedTracing.Api.dll": {},
+          "ref/net45/Instana.ManagedTracing.Sdk.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Instana.ManagedTracing.Api.dll": {},
+          "lib/net45/Instana.ManagedTracing.Sdk.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Instana.ManagedTracing.Sdk/1.0.14": {
+      "sha512": "Fwp2DY6dpxsaSQnUlMxNfsPBjEMol6mhqDy3ku6pVVftYxLhgdgB/lEVFwRmwSdrYh7fCefpsQuaeTj4ZOWpbw==",
+      "type": "package",
+      "path": "instana.managedtracing.sdk/1.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "instana.managedtracing.sdk.1.0.14.nupkg.sha512",
+        "instana.managedtracing.sdk.nuspec",
+        "lib/net45/Instana.ManagedTracing.Api.dll",
+        "lib/net45/Instana.ManagedTracing.Sdk.dll",
+        "ref/net45/Instana.ManagedTracing.Api.dll",
+        "ref/net45/Instana.ManagedTracing.Sdk.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Instana.ManagedTracing.Sdk >= 1.0.14"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dinka\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dinka\\Downloads\\s2i-dotnetcore-ex-dotnetcore-3.1\\s2i-dotnetcore-ex-dotnetcore-3.1\\app\\app.csproj",
+      "projectName": "app",
+      "projectPath": "C:\\Users\\dinka\\Downloads\\s2i-dotnetcore-ex-dotnetcore-3.1\\s2i-dotnetcore-ex-dotnetcore-3.1\\app\\app.csproj",
+      "packagesPath": "C:\\Users\\dinka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dinka\\Downloads\\s2i-dotnetcore-ex-dotnetcore-3.1\\s2i-dotnetcore-ex-dotnetcore-3.1\\app\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dinka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Instana.ManagedTracing.Sdk": {
+            "target": "Package",
+            "version": "[1.0.14, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Instana.ManagedTracing.Sdk 1.0.14' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Instana.ManagedTracing.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
